@@ -2,11 +2,11 @@
 int main()
 {
 	int a;
+	printf("enter the number");
 	scanf("%d",&a);
-	printf("%.6d",a);
+	if(a&1)
+	printf( "odd",a);
+	else
+	printf("even",&a);
 	return 0;
-	
 }
-
-
-
